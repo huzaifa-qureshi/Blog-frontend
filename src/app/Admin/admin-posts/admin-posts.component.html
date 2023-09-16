@@ -1,0 +1,14 @@
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let post of posts">
+            <td>{{post.title}}</td>
+            <td><a [routerLink]="['/admin/posts' , post.id ]">View</a></td>
+        </tr>
+    </tbody>
+</table>
