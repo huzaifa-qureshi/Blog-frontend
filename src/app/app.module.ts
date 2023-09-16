@@ -7,12 +7,18 @@ import { AdminPostsComponent } from './Admin/admin-posts/admin-posts.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AdminViewPostComponent } from './Admin/admin-view-post/admin-view-post.component';
 import { FormsModule } from '@angular/forms';
+import { AdminAddPostComponent } from './Admin/admin-add-post/admin-add-post.component';
+import { BlogPostsComponent } from './blog-posts/blog-posts.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminPostsComponent,
-    AdminViewPostComponent
+    AdminViewPostComponent,
+    AdminAddPostComponent,
+    BlogPostsComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

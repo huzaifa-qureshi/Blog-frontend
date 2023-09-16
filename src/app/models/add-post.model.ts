@@ -1,5 +1,4 @@
-export interface Post{
-    id: string;
+export interface AddPostRequest{
     title: string;
     content: string;
     summary: string;

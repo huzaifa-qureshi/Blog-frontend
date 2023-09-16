@@ -1,0 +1,12 @@
+<div class="container" style="display: flex;">
+    <ng-container *ngIf="post">
+        <div class="card" *ngIf="post">
+            <img [src]="post.featuredImageUrl" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">{{post.title}}</h3>
+              <article class="card-text" [innerHTML]="post.content">
+              </article>
+            </div>
+          </div>
+    </ng-container>
+</div>
